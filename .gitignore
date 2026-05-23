@@ -1,0 +1,9 @@
+build/
+!Il2CppOutputProject/IL2CPP/build/
+!Il2CppOutputProject/IL2CPP/build/deploy_arm64/
+!Il2CppOutputProject/IL2CPP/build/deploy_arm64/**
+!Il2CppOutputProject/IL2CPP/build/deploy_x86_64/
+!Il2CppOutputProject/IL2CPP/build/deploy_x86_64/**
+Pods/
+CERTIFICATE/
+.DS_Store
