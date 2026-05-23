@@ -806,7 +806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView__ctor_m3C156986754CF612D73D61
 		L_0 = MobileAds_GetClientFactory_mFA1B4391A9B66823B3461742EA7623C6A650395E(NULL);
 		NullCheck(L_0);
 		RuntimeObject* L_1;
-		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IClientFactory_tB916FBC5880467FBFDF41CE059EF0D7057307252_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(2, IClientFactory_tB916FBC5880467FBFDF41CE059EF0D7057307252_il2cpp_TypeInfo_var, L_0);
 		__this->____client = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____client), (void*)L_1);
 		RuntimeObject* L_2 = __this->____client;
@@ -837,7 +837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_Destroy_mCD660269DF04D3EA92CC
 	{
 		RuntimeObject* L_1 = __this->____client;
 		NullCheck(L_1);
-		InterfaceActionInvoker0::Invoke(17, IBannerClient_t09294BA982EA240BD81470F2CFB8DA17E6D7A42D_il2cpp_TypeInfo_var, L_1);
+		InterfaceActionInvoker0::Invoke(19, IBannerClient_t09294BA982EA240BD81470F2CFB8DA17E6D7A42D_il2cpp_TypeInfo_var, L_1);
 		__this->____client = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____client), (void*)(RuntimeObject*)NULL);
 	}
@@ -866,7 +866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_LoadAd_m56BF83CC97DE20C40457B
 		RuntimeObject* L_1 = __this->____client;
 		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_2 = ___0_request;
 		NullCheck(L_1);
-		InterfaceActionInvoker1< AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* >::Invoke(15, IBannerClient_t09294BA982EA240BD81470F2CFB8DA17E6D7A42D_il2cpp_TypeInfo_var, L_1, L_2);
+		InterfaceActionInvoker1< AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* >::Invoke(16, IBannerClient_t09294BA982EA240BD81470F2CFB8DA17E6D7A42D_il2cpp_TypeInfo_var, L_1, L_2);
 	}
 
 IL_0017:
@@ -892,7 +892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_Hide_m54630CB9110A9D38DFC00BC
 	{
 		RuntimeObject* L_1 = __this->____client;
 		NullCheck(L_1);
-		InterfaceActionInvoker0::Invoke(16, IBannerClient_t09294BA982EA240BD81470F2CFB8DA17E6D7A42D_il2cpp_TypeInfo_var, L_1);
+		InterfaceActionInvoker0::Invoke(18, IBannerClient_t09294BA982EA240BD81470F2CFB8DA17E6D7A42D_il2cpp_TypeInfo_var, L_1);
 	}
 
 IL_0016:
@@ -1456,7 +1456,7 @@ IL_0023:
 		L_6 = MobileAds_GetClientFactory_mFA1B4391A9B66823B3461742EA7623C6A650395E(NULL);
 		NullCheck(L_6);
 		RuntimeObject* L_7;
-		L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IClientFactory_tB916FBC5880467FBFDF41CE059EF0D7057307252_il2cpp_TypeInfo_var, L_6);
+		L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(4, IClientFactory_tB916FBC5880467FBFDF41CE059EF0D7057307252_il2cpp_TypeInfo_var, L_6);
 		NullCheck(L_5);
 		L_5->___client = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___client), (void*)L_7);
@@ -1464,7 +1464,7 @@ IL_0023:
 		NullCheck(L_8);
 		RuntimeObject* L_9 = L_8->___client;
 		NullCheck(L_9);
-		InterfaceActionInvoker0::Invoke(16, IInterstitialClient_t18D2E5ED7E33938C3CC2556409B01959F8E4C784_il2cpp_TypeInfo_var, L_9);
+		InterfaceActionInvoker0::Invoke(18, IInterstitialClient_t18D2E5ED7E33938C3CC2556409B01959F8E4C784_il2cpp_TypeInfo_var, L_9);
 		U3CLoadU3Ec__AnonStorey0_t0A670E82EC373473D0DFD058F62D65E411B396F6* L_10 = V_0;
 		NullCheck(L_10);
 		RuntimeObject* L_11 = L_10->___client;
@@ -1487,7 +1487,7 @@ IL_0023:
 		String_t* L_20 = ___0_adUnitId;
 		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_21 = ___1_request;
 		NullCheck(L_19);
-		InterfaceActionInvoker2< String_t*, AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* >::Invoke(17, IInterstitialClient_t18D2E5ED7E33938C3CC2556409B01959F8E4C784_il2cpp_TypeInfo_var, L_19, L_20, L_21);
+		InterfaceActionInvoker2< String_t*, AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* >::Invoke(21, IInterstitialClient_t18D2E5ED7E33938C3CC2556409B01959F8E4C784_il2cpp_TypeInfo_var, L_19, L_20, L_21);
 		return;
 	}
 }
@@ -1537,7 +1537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_Show_m70188D3BE2543E7A0B5
 		__this->____canShowAd = (bool)0;
 		RuntimeObject* L_1 = __this->____client;
 		NullCheck(L_1);
-		InterfaceActionInvoker0::Invoke(18, IInterstitialClient_t18D2E5ED7E33938C3CC2556409B01959F8E4C784_il2cpp_TypeInfo_var, L_1);
+		InterfaceActionInvoker0::Invoke(22, IInterstitialClient_t18D2E5ED7E33938C3CC2556409B01959F8E4C784_il2cpp_TypeInfo_var, L_1);
 	}
 
 IL_001d:
@@ -1564,7 +1564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_Destroy_m5C5C9367FF6A3500
 		__this->____canShowAd = (bool)0;
 		RuntimeObject* L_1 = __this->____client;
 		NullCheck(L_1);
-		InterfaceActionInvoker0::Invoke(19, IInterstitialClient_t18D2E5ED7E33938C3CC2556409B01959F8E4C784_il2cpp_TypeInfo_var, L_1);
+		InterfaceActionInvoker0::Invoke(25, IInterstitialClient_t18D2E5ED7E33938C3CC2556409B01959F8E4C784_il2cpp_TypeInfo_var, L_1);
 	}
 
 IL_001d:
@@ -2328,7 +2328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MobileAds_GetMobileAdsClient_m
 		L_0 = MobileAds_GetClientFactory_mFA1B4391A9B66823B3461742EA7623C6A650395E(NULL);
 		NullCheck(L_0);
 		RuntimeObject* L_1;
-		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(3, IClientFactory_tB916FBC5880467FBFDF41CE059EF0D7057307252_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(10, IClientFactory_tB916FBC5880467FBFDF41CE059EF0D7057307252_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
@@ -2571,7 +2571,7 @@ IL_0023:
 		L_6 = MobileAds_GetClientFactory_mFA1B4391A9B66823B3461742EA7623C6A650395E(NULL);
 		NullCheck(L_6);
 		RuntimeObject* L_7;
-		L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(2, IClientFactory_tB916FBC5880467FBFDF41CE059EF0D7057307252_il2cpp_TypeInfo_var, L_6);
+		L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6, IClientFactory_tB916FBC5880467FBFDF41CE059EF0D7057307252_il2cpp_TypeInfo_var, L_6);
 		NullCheck(L_5);
 		L_5->___client = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___client), (void*)L_7);
@@ -2579,7 +2579,7 @@ IL_0023:
 		NullCheck(L_8);
 		RuntimeObject* L_9 = L_8->___client;
 		NullCheck(L_9);
-		InterfaceActionInvoker0::Invoke(18, IRewardedAdClient_t949F7B5C9EE80E93832663274F37DF3171FCADDE_il2cpp_TypeInfo_var, L_9);
+		InterfaceActionInvoker0::Invoke(20, IRewardedAdClient_t949F7B5C9EE80E93832663274F37DF3171FCADDE_il2cpp_TypeInfo_var, L_9);
 		U3CLoadU3Ec__AnonStorey0_tE468CDD78DB81EE4DCA4E3649D82B775C9FBC3CA* L_10 = V_0;
 		NullCheck(L_10);
 		RuntimeObject* L_11 = L_10->___client;
@@ -2602,7 +2602,7 @@ IL_0023:
 		String_t* L_20 = ___0_adUnitId;
 		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_21 = ___1_request;
 		NullCheck(L_19);
-		InterfaceActionInvoker2< String_t*, AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* >::Invoke(19, IRewardedAdClient_t949F7B5C9EE80E93832663274F37DF3171FCADDE_il2cpp_TypeInfo_var, L_19, L_20, L_21);
+		InterfaceActionInvoker2< String_t*, AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* >::Invoke(23, IRewardedAdClient_t949F7B5C9EE80E93832663274F37DF3171FCADDE_il2cpp_TypeInfo_var, L_19, L_20, L_21);
 		return;
 	}
 }
@@ -2655,7 +2655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_Show_m63D6659798C98BD34A7F0A1
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____userRewardEarnedCallback), (void*)L_1);
 		RuntimeObject* L_2 = __this->____client;
 		NullCheck(L_2);
-		InterfaceActionInvoker0::Invoke(20, IRewardedAdClient_t949F7B5C9EE80E93832663274F37DF3171FCADDE_il2cpp_TypeInfo_var, L_2);
+		InterfaceActionInvoker0::Invoke(25, IRewardedAdClient_t949F7B5C9EE80E93832663274F37DF3171FCADDE_il2cpp_TypeInfo_var, L_2);
 	}
 
 IL_0024:
@@ -2682,7 +2682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_Destroy_mF51E7A752A2B5C378E94
 	{
 		RuntimeObject* L_1 = __this->____client;
 		NullCheck(L_1);
-		InterfaceActionInvoker0::Invoke(21, IRewardedAdClient_t949F7B5C9EE80E93832663274F37DF3171FCADDE_il2cpp_TypeInfo_var, L_1);
+		InterfaceActionInvoker0::Invoke(29, IRewardedAdClient_t949F7B5C9EE80E93832663274F37DF3171FCADDE_il2cpp_TypeInfo_var, L_1);
 	}
 
 IL_001d:
